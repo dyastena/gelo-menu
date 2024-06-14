@@ -58,9 +58,6 @@ public class MenuPage extends javax.swing.JFrame {
             dt.removeRow(jTable1.convertRowIndexToModel(row));
         }
     }
-       
-       
-       
        Vector v = new Vector();
        
        v.add(id);
@@ -69,8 +66,6 @@ public class MenuPage extends javax.swing.JFrame {
        v.add(TotalPrice);
        
        dt.addRow(v);
-       
-       
     }
     
     public void cal(){
